@@ -1,0 +1,20 @@
+{
+  "status": "local_review_complete_portable_candidate",
+  "reviewed_at": "2026-09-28T01:33:23.775145+00:00",
+  "scientific_result": "Small positive fixed-model total/edge gains in22,75 and97; aggregate6bba slightly negative and extension6bba negative. Evidence permits exploratory technical preparation under existing user authorization, not a claimed hidden-test improvement.",
+  "aggregate97_delta": 9.301095370328749e-05,
+  "extension75_delta": 2.0713378024228568e-05,
+  "aggregate97_6bba_delta": -1.4954573869241372e-06,
+  "extension75_6bba_delta": -5.714415838697917e-05,
+  "wins": 9,
+  "losses": 8,
+  "unchanged": 80,
+  "graph_changes": 978,
+  "input_hashes_verified": 7179,
+  "artifact_hashes_verified": 402,
+  "recovery": "state\\c046_analysis_recovery_20260928",
+  "next": "At existing scheduled wake prepare one portable original-C023+unchanged-fixed-appearance candidate using existing builders; actual configured12 replay/writer and actual T4 validation required before worthwhile exploratory exact-version submission. No new training/threshold sweep/prefix routing/C024 clone.",
+  "kaggle_writes_for_c046": false,
+  "final_picks": "C023/C024 unchanged",
+  "schedule": "unchanged by manual check; first11:12KST then40minutes"
+}

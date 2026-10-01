@@ -1,0 +1,22 @@
+{
+  "status": "advance_portable",
+  "candidate": "c069",
+  "decided_kst": "2026-09-29T22:26:00+09:00",
+  "independent_review": "state/c069_study_review.json",
+  "actual97_score": 0.9411245071718845,
+  "delta_vs_parent_C067": 0.00013282880054565904,
+  "delta_vs_C023": 0.0016804264413849967,
+  "delta_vs_C065": 0.0006156038804219222,
+  "parent_domain_deltas": {"44b6": 0.000925935445268, "6bba": 0.000042842358356},
+  "extension75_delta_vs_parent": 0.000054576885102,
+  "parent_edge_tp_delta": 3,
+  "parent_edge_fp_delta": -7,
+  "division_counts_unchanged": true,
+  "nodes_unchanged": true,
+  "distinct_integer_graphs_vs_parent": 88,
+  "rationale": "Small positive actual organizer effect over the submitted parent in both embryos and extension75, fewer false edges, and distinct output justify a fixed exploratory submission after all portable and clean T4 gates. Prioritize this verified candidate before speculative C070 work.",
+  "limits": "Only two embryos with overlapping crops and parent fit-domain reuse. No hidden-score improvement is established; this is not evidence of a hidden +0.002 to +0.003 gain.",
+  "schedule": "About 10 minutes portable plus 30 minutes clean T4 and 15 minutes review/submission margin fits before midnight at decision time. Reassess C070 with actual portable timing without displacing C069.",
+  "eligible_for_submission_now": false,
+  "unchanged_recipe": true
+}

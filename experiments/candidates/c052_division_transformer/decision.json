@@ -1,0 +1,89 @@
+{
+  "created": "2026-09-28T08:55:07.364511+00:00",
+  "status": "advance_fixed75_extension",
+  "reason": "Both-embryo/split improvement versus previouslate600 and actual graph gains;resolve mixed C0236bba/confirm edge evidence on unchanged75 extension",
+  "allow_submission_now": false,
+  "allow_refit": false,
+  "rows": [
+    {
+      "group": "all22",
+      "movies": 22,
+      "score": 0.9474648824501696,
+      "delta_vs_C023": 0.0014787098363631,
+      "delta_vs_C037_late600": 0.0013304091794543,
+      "edge_delta": 0.0009039971926849,
+      "edge_delta_vs_C037": 0.0013304091794543,
+      "div_tp": 5,
+      "div_fp": 5,
+      "div_fn": 19,
+      "edge_wins": 12,
+      "edge_losses": 10
+    },
+    {
+      "group": "heldout12",
+      "movies": 12,
+      "score": 0.9579486336706944,
+      "delta_vs_C023": 0.0027867782770711,
+      "delta_vs_C037_late600": 0.0015154823796862,
+      "edge_delta": 0.0027867782770711,
+      "edge_delta_vs_C037": 0.0015154823796862,
+      "div_tp": 3,
+      "div_fp": 2,
+      "div_fn": 12,
+      "edge_wins": 7,
+      "edge_losses": 5
+    },
+    {
+      "group": "confirm10",
+      "movies": 10,
+      "score": 0.937810765678202,
+      "delta_vs_C023": 0.0005032567571416,
+      "delta_vs_C037_late600": 0.0011643255451909,
+      "edge_delta": -0.0007787945249095,
+      "edge_delta_vs_C037": 0.0011643255451909,
+      "div_tp": 2,
+      "div_fp": 3,
+      "div_fn": 7,
+      "edge_wins": 5,
+      "edge_losses": 5
+    },
+    {
+      "group": "44b6",
+      "movies": 6,
+      "score": 0.948709464206284,
+      "delta_vs_C023": 0.011695806659676,
+      "delta_vs_C037_late600": 0.0035126868896208,
+      "edge_delta": 0.011695806659676,
+      "edge_delta_vs_C037": 0.0035126868896208,
+      "div_tp": 1,
+      "div_fp": 1,
+      "div_fn": 3,
+      "edge_wins": 2,
+      "edge_losses": 4
+    },
+    {
+      "group": "6bba",
+      "movies": 16,
+      "score": 0.9470504087594396,
+      "delta_vs_C023": 0.0004197991031523,
+      "delta_vs_C037_late600": 0.0010989602576064,
+      "edge_delta": -0.0002468675635143,
+      "edge_delta_vs_C037": 0.0010989602576064,
+      "div_tp": 4,
+      "div_fp": 4,
+      "div_fn": 16,
+      "edge_wins": 10,
+      "edge_losses": 6
+    }
+  ],
+  "known_edge_counts_delta": {
+    "tp": 7,
+    "fp": -11,
+    "fn": -7
+  },
+  "division_counts_delta": {
+    "tp": 0,
+    "fp": -1,
+    "fn": 0
+  }
+}

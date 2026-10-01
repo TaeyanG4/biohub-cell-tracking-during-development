@@ -1,0 +1,17 @@
+{
+  "status": "advance_clean_t4_exploratory",
+  "created": "2026-09-29T08:38:14.128235+00:00",
+  "independent_review": "state/c065_deploy_review.json",
+  "reason": "C023 actual97 +0.001064823 with both domains and extension75 positive, edgeTP+105/FP+3, divisionTP+1/FP unchanged; distinct directly fitted production model, stronger44b6 than prior means, worthwhile exploratory T4 under final-four user preference.",
+  "limitations": [
+    "FIT-DOMAIN97, not independent validation; original C052 whole-embryo results provide component transfer only",
+    "All97 versus C052 -0.000742979, C053 -0.000043686, C054 -0.000208175; 29 movie edge wins and68losses against C023",
+    "C023-relative emitted nodes+23057; restored links accompany extra node cost. No +0.002 hidden-score claim."
+  ],
+  "remaining_requirements": [
+    "Clean exactversion1 actualT4 source/model/CSV/fullprecision/fallback0",
+    "Fresh shared quota and exactversion/output dedup immediately before submission"
+  ],
+  "local_proof_sha256": "080152edf9a1620a7938cc4ed6f3debfd8daf04cfddf8083689404a588d98565",
+  "review_sha256": "003a307542247b81e8f3d6b20c29b2fb2f28e315e4224b0b0b61c7ee7777b5d5"
+}

@@ -1,0 +1,14 @@
+{
+  "status": "pilot_positive_extend_and_combine",
+  "reviewed": "2026-09-27T03:27:34.523622+00:00",
+  "official22_delta": {
+    "appearance": 0.00032864085555783795,
+    "agreement": 0.00010807925870170987
+  },
+  "off_controls_verified": 22,
+  "source_and_supplemental_hashes_verified": 16,
+  "extension": "followup_extension",
+  "fixed_combination": "C037 early150 + C038 appearance/agreement; retrospective choice; actual replay pending",
+  "kaggle_operations": [],
+  "submission_supported_yet": false
+}

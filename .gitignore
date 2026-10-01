@@ -1,0 +1,64 @@
+# Whitelist repository: the working folder holds many GB of competition data,
+# model weights, run logs and third-party sources that are NOT published.
+# Everything is ignored by default; only curated paths are re-included.
+
+/*
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/README.ko.md
+!/LICENSE
+!/NOTICE.md
+!/HANDOFF.md
+!/PROJECT_STRUCTURE.md
+!/run_radar.bat
+!/public-radar.html
+!/public-radar.vbs
+!/docs/
+!/src/
+!/tools/
+!/experiments/
+!/reports/
+
+# Python caches anywhere
+__pycache__/
+*.pyc
+
+# src: our own research and evaluation code
+/src/**
+!/src/**/
+!/src/**/*.py
+!/src/**/*.md
+
+# tools: sources only (no build venv, binaries or radar state)
+/tools/**
+!/tools/**/
+/tools/BiohubViewer/build/
+/tools/BiohubViewer/build_venv/
+/tools/BiohubViewer/dist/
+!/tools/*.py
+!/tools/*.ps1
+!/tools/notebook_radar/*.py
+!/tools/BiohubViewer/*.py
+!/tools/BiohubViewer/*.md
+!/tools/BiohubViewer/*.spec
+!/tools/BiohubViewer/build.ps1
+
+# experiments: candidate notebooks, READMEs, reviews and decision records
+/experiments/**
+!/experiments/**/
+!/experiments/submission_log.csv
+!/experiments/candidates/*/*.ipynb
+!/experiments/candidates/**/*.md
+!/experiments/candidates/**/decision.json
+!/experiments/candidates/**/kernel-metadata.json
+!/experiments/candidates/**/*stems*.txt
+# per-run notebook copies inside study sub-folders are local replays, not candidates
+/experiments/candidates/**/e2e/
+/experiments/candidates/**/runs/
+/experiments/candidates/**/logs/
+
+# reports: written reports only (no feature dumps or replay CSVs)
+/reports/**
+!/reports/**/
+!/reports/**/*.md

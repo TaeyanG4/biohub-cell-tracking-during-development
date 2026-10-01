@@ -1,0 +1,26 @@
+{
+  "id": "taeyangg4/biohub-c017-jump-stabilized-relink",
+  "title": "biohub-c017-jump-stabilized-relink",
+  "code_file": "biohub-c017-jump-stabilized-relink.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": false,
+  "keywords": [
+    "gpu"
+  ],
+  "dataset_sources": [
+    "pilkwang/biohub-deepcenter-unet3d-center-prior-v1",
+    "pilkwang/biohub-temporal-unet3d-seed314159-v1",
+    "pilkwang/biohub-tracking-support-pack-50ep-v1",
+    "taeyangg4/biohub-c012-v1284-head"
+  ],
+  "kernel_sources": [],
+  "competition_sources": [
+    "biohub-cell-tracking-during-development"
+  ],
+  "model_sources": [],
+  "machine_shape": "NvidiaTeslaT4"
+}

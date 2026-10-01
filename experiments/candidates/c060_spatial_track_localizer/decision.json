@@ -1,0 +1,7 @@
+{
+  "component_gate_passed": false,
+  "reason": "Both embryos overall/tail/persistent-tail paired localization improve; good-point mean/identity and actual official graph do not regress.",
+  "further_work": "Only manual review may justify an unchanged97 component extension or separate exact-control pre-association integration.",
+  "no_hidden_gain_claim": true,
+  "no_auto_submission": true
+}

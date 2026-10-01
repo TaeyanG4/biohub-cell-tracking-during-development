@@ -1,0 +1,25 @@
+{
+  "id": "taeyangg4/biohub-c009-boost-geometric-fusion",
+  "title": "biohub-c009-boost-geometric-fusion",
+  "code_file": "biohub-c009-boost-geometric-fusion.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": false,
+  "keywords": [
+    "gpu"
+  ],
+  "dataset_sources": [
+    "pilkwang/biohub-deepcenter-unet3d-center-prior-v1",
+    "pilkwang/biohub-tracking-support-pack-50ep-v1",
+    "taeyangg4/biohub-local-4070ti-weights"
+  ],
+  "kernel_sources": [],
+  "competition_sources": [
+    "biohub-cell-tracking-during-development"
+  ],
+  "model_sources": [],
+  "machine_shape": "NvidiaTeslaT4"
+}

@@ -1,0 +1,28 @@
+{
+  "status": "closed_insufficient_supervision",
+  "reviewed_at": "2026-09-26T20:03:41.969401+00:00",
+  "completed_at": "2026-09-26T19:09:26.831887+00:00",
+  "counts": {
+    "groups": 2302,
+    "pairs": 4928,
+    "positive": 2302,
+    "known_negative": 16,
+    "unknown": 2610
+  },
+  "known_negative_by_embryo": {
+    "44b6": 6,
+    "6bba": 10
+  },
+  "model_fits": 0,
+  "official_reid_score_delta": null,
+  "hypothesis_disproved": false,
+  "reason": "Both cross-embryo training folds below fixed minimum 20 examples/class. Appearance benefit cannot be evaluated.",
+  "baseline_checks_passed": 22,
+  "graph_integration": false,
+  "pushes": [],
+  "submissions": [],
+  "automation_id": "biohub-t4",
+  "automation_stop_requested": false,
+  "report": "FINAL_REVIEW.md",
+  "automation_status": "PAUSED"
+}

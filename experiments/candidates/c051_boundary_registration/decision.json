@@ -1,0 +1,59 @@
+{
+  "reviewed": "2026-09-28T04:10:16.791516+00:00",
+  "status": "closed_no_graph_integration",
+  "reason": "484 additional trusted boundary groups provide zero new annotated recovery and one lost annotated match to unknown target. No threshold rescue or biological-negative inference.",
+  "review_verification": {
+    "verified": "2026-09-28T04:08:32.459255+00:00",
+    "status": "passed",
+    "jobs": 25,
+    "inputs": 1161,
+    "outputs": 92,
+    "actual_image_chunks": 996,
+    "control_groups": 2302,
+    "nonboundary_groups": 1084,
+    "all22_original_controls": true,
+    "exact_nonboundary_pairs": true,
+    "support_counts": {
+      "calls": 2572,
+      "valid_support": 1271
+    },
+    "boundary_rows": [
+      {
+        "embryo": "44b6",
+        "boundary_groups": 111,
+        "newly_trusted": 71,
+        "proposals": 0,
+        "fixes": 0,
+        "lost_annotated_matches": 0,
+        "unknown_proposals": 0
+      },
+      {
+        "embryo": "6bba",
+        "boundary_groups": 1107,
+        "newly_trusted": 413,
+        "proposals": 1,
+        "fixes": 0,
+        "lost_annotated_matches": 1,
+        "unknown_proposals": 1
+      }
+    ],
+    "proposal_examples": [
+      {
+        "stem": "6bba_05db0fb1",
+        "source": 40948,
+        "candidate": 41701,
+        "c023_target": 41684,
+        "fixes": 0,
+        "harms": 1,
+        "unknown_proposal": 1,
+        "best_um": 1.36077477914343,
+        "margin_um": 7.917085628918471,
+        "ncc": 0.7707518935203552,
+        "peak_gap": 0.0468685626983642,
+        "cycle_um": 0.4614679305288995
+      }
+    ],
+    "ended": "2026-09-28T04:01:11.161642+00:00"
+  },
+  "next": "Close current supported queue;see state/research_closure_20260928/REVIEW.md"
+}

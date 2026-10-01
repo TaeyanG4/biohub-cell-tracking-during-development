@@ -1,0 +1,9 @@
+# C040 pilot review and fixed extension decision
+
+Completed16:54:55KST2026-09-27; all3 jobs succeeded. Verified771 pinned inputs and138 graph/replay artifact hashes,22 exact late600 off-controls; unchanged nodes/source degree/edge counts and proposed/actual edit invariants passed. Appearance proposed1163/changed321 edges; agreement126/49. These edits are not counts of biologically correct repairs.
+
+Appearance versus C023: official22 +0.000758812, adjusted-edge +0.000184100; heldout total/edge +0.001627248; confirm total +0.000176124 but edge -0.001105927;44b6 total/edge +0.009929069;6bba total -0.000189211 and edge -0.000855877.14 movie edge wins/8 losses; large44b6 gain concentrated in2 of6 movies. Division TP5/FP5/FN19 versus C0235/6/19: one fewer counted FP, no new TP. Appearance increment over late600 total/edge +0.000610512 overall, +0.000355952 heldout, +0.000837193 confirm, +0.001745949 44b6 and +0.000489950 6bba.
+
+Agreement versus C023: total +0.000367559 but edge -0.000207153; confirm total -0.000348901 and6bba -0.000496365. Its own-off increment is positive throughout, but does not warrant another extended arm now. Retain both raw outputs and earlier complementarity findings.
+
+Decision: no submission or production model yet. Register ONE fixed appearance extension on75 and aggregate97, not a threshold/checkpoint sweep. This is retrospective compute allocation based on positive total in both pilot splits and complementary edge improvement over late600; it explicitly does not satisfy positive C023 edge gains in every subgroup. Extension resolves transfer uncertainty. Frozen late600 and appearance models/knobs, training disjoint from97, fresh two full-movie reproduction checks and75 direct-BASE/off parity. Detailed plan in extension75/README.md. Background only, compact40-minute checks. No Kaggle writes or slots; anchors unchanged. Public-source audit less than1h old, no repeat refresh.

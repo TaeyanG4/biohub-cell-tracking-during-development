@@ -1,0 +1,46 @@
+{
+  "status": "hold_no_time_for_exact_production_validation",
+  "created": "2026-09-29T20:51:54.782338+09:00",
+  "independent_review": "state/c068_diagnostic_review.json",
+  "unique_verified_hashes": 55820,
+  "all97": {
+    "group": "all97",
+    "score": 0.9405242540421467,
+    "delta_vs": {
+      "C023": 0.0010801733116472256,
+      "C052": -0.0007276284362367491,
+      "C053": -2.8335067250639945e-05,
+      "C054": -0.00019282396009978608,
+      "C065": 1.5350750684151038e-05
+    }
+  },
+  "both_embryos": [
+    {
+      "group": "44b6",
+      "score": 0.9401624802399356,
+      "delta_vs": {
+        "C023": 0.004320183333791472,
+        "C052": 0.0,
+        "C053": 0.0017248359233473787,
+        "C054": 0.0017122767741972744,
+        "C065": -0.0004277330308766203
+      }
+    },
+    {
+      "group": "6bba",
+      "score": 0.9408982303168502,
+      "delta_vs": {
+        "C023": 0.0007148917380417341,
+        "C052": -0.0008508055461203812,
+        "C053": -0.00024008374610295924,
+        "C054": -0.0004353933948616495,
+        "C065": 5.219308827519864e-05
+      }
+    }
+  ],
+  "reason": "Diagnostic all97 improves versusC023 by0.001080173, but versus already submittedC065 only0.000015351; lower thanC052,C053,C054 and lower thanC067 diagnostic by0.000467424. Extension75 gain shrinks and underperformsC065. All72 remote detectorcoords differ and some shapes differ, so exact reusable detector/cache proof is absent. Same-device125+local30+remote60+margin20=235minutes cannot fit the remaining deadline, even before waiting forC067GPU. No scientific or schedule case to displaceC067.",
+  "submission_eligible": false,
+  "required_remaining_minutes": 235,
+  "optimistic_finish_without_GPU_wait": "2026-09-30T00:46:54.782338+09:00",
+  "no_new_gpu_phase": true
+}

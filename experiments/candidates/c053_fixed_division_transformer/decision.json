@@ -1,0 +1,36 @@
+{
+  "status": "advance_one_exact_private_T4",
+  "reviewed_at": "2026-09-28T13:32:20.028796+00:00",
+  "local_hashes": {
+    "status": "passed",
+    "verified_at": "2026-09-28T13:29:56.879785+00:00",
+    "inputs": 53342,
+    "outputs": 4067,
+    "jobs": 13,
+    "original_plan_sha256": "2e06db34a5bb82f1a2363d6aca41bc59ef67176624375f06b1bc447d77e155b3",
+    "artifact_manifest_sha256": "a3b459dd38258f3cf0a58b26de5127c46d159f5757a0912d82856bb041ddc19e"
+  },
+  "local_verification": {
+    "status": "passed",
+    "created": "2026-09-28T13:19:50.664229+00:00",
+    "candidate": "c053",
+    "notebook_sha256": "7be0901011e478b5c2c0ed70b2ac52d2ade6f63a96c526b8afe0a19d3f40d6bc",
+    "model_sha256": "f9af4a4a86f77069ee3bfe31fedd9ab1648cbdaaebf442e714381fe60cedbe1b",
+    "csv_sha256": "013c4e8ede65010ec24d6cf2c050726e81cb512608a9fa8bf75c20ef2c15c937",
+    "local_visible4": 0.9333208250324538,
+    "portable12": "exact",
+    "writer4": "exact",
+    "repair_fallback": 0,
+    "deadline_degraded": 0,
+    "actual_t4_verified": false,
+    "limitation": "Actual T4 verification and scientific review of fixed97 required before competition submission."
+  },
+  "scientific_basis": "C052 opposite-whole-embryo transfer evidence;C053 fixed97 positive aggregate total/edge in both embryos and75,80additional edgeTP vsC023",
+  "limitations": [
+    "Fixed97 is fit-domain,not independent validation",
+    "Weaker than C052 opposite folds,confirm10 slightly negative,28/69 edge-score wins/losses",
+    "DivisionTP net0 andFP+1 vsC023;no proven LB improvement"
+  ],
+  "authorization": "Existing user approval for worthwhile autonomous push/T4/submission;freshquota/dedup and actualT4 gates still required",
+  "final_picks": "C023/C0240.954 preserved"
+}

@@ -1,0 +1,334 @@
+{
+  "status": "advance_clean_t4_exploratory",
+  "created": "2026-09-29T21:16:44.914830+09:00",
+  "independent_review": "state/c067_local_review.json",
+  "reason": "Worth one distinct exploratory final submission after clean T4 verification: uniform immutable44b6 checkpoint improves actual97 and both embryos versusC023, improves aggregate and extension75 versusC053/C054/C065, and produces97 distinct integer graphs versusC065. This is not a claim of broad dominance:44b6 is worse thanC065 by0.002983499, all22/heldout12 and visible4 also worsen versusC065, and total is lower thanC052 opposite-fold benchmark by0.000260204. The complementary6bba gain and available authorized slots justify exact clean T4 validation. No hidden-score improvement is established.",
+  "actual97": {
+    "group": "all97",
+    "score": 0.9409916783713388,
+    "comparisons": {
+      "C023": {
+        "score_delta": 0.0015475976408393377,
+        "edge_wins": 56,
+        "edge_losses": 37,
+        "count_deltas": {
+          "edge_tp": 64,
+          "edge_fp": -14,
+          "edge_fn": -64,
+          "division_tp": 1,
+          "division_fp": -2,
+          "division_fn": -1,
+          "num_pred_nodes": 9005
+        }
+      },
+      "C052": {
+        "score_delta": -0.00026020410704463703,
+        "edge_wins": 21,
+        "edge_losses": 6,
+        "count_deltas": {
+          "edge_tp": -13,
+          "edge_fp": 11,
+          "edge_fn": 13,
+          "division_tp": 0,
+          "division_fp": 0,
+          "division_fn": 0,
+          "num_pred_nodes": -5116
+        }
+      },
+      "C053": {
+        "score_delta": 0.00043908926194147213,
+        "edge_wins": 78,
+        "edge_losses": 19,
+        "count_deltas": {
+          "edge_tp": -16,
+          "edge_fp": -9,
+          "edge_fn": 16,
+          "division_tp": 0,
+          "division_fp": -2,
+          "division_fn": 0,
+          "num_pred_nodes": -8601
+        }
+      },
+      "C054": {
+        "score_delta": 0.000274600369092326,
+        "edge_wins": 77,
+        "edge_losses": 20,
+        "count_deltas": {
+          "edge_tp": -18,
+          "edge_fp": -4,
+          "edge_fn": 18,
+          "division_tp": 0,
+          "division_fp": -1,
+          "division_fn": 0,
+          "num_pred_nodes": -8220
+        }
+      },
+      "C065": {
+        "score_delta": 0.0004827750798762631,
+        "edge_wins": 71,
+        "edge_losses": 26,
+        "count_deltas": {
+          "edge_tp": -41,
+          "edge_fp": -17,
+          "edge_fn": 41,
+          "division_tp": 0,
+          "division_fp": -2,
+          "division_fn": 0,
+          "num_pred_nodes": -14052
+        }
+      }
+    }
+  },
+  "both_embryos": [
+    {
+      "group": "44b6",
+      "score": 0.9376067137951613,
+      "comparisons": {
+        "C023": {
+          "score_delta": 0.001764416889017073,
+          "edge_wins": 11,
+          "edge_losses": 15,
+          "count_deltas": {
+            "edge_tp": 6,
+            "edge_fp": -7,
+            "edge_fn": -6,
+            "division_tp": 0,
+            "division_fp": -1,
+            "division_fn": 0,
+            "num_pred_nodes": 2426
+          }
+        },
+        "C052": {
+          "score_delta": -0.002555766444774399,
+          "edge_wins": 21,
+          "edge_losses": 6,
+          "count_deltas": {
+            "edge_tp": -13,
+            "edge_fp": 11,
+            "edge_fn": 13,
+            "division_tp": 0,
+            "division_fp": 0,
+            "division_fn": 0,
+            "num_pred_nodes": -5116
+          }
+        },
+        "C053": {
+          "score_delta": -0.0008309305214270202,
+          "edge_wins": 23,
+          "edge_losses": 4,
+          "count_deltas": {
+            "edge_tp": -4,
+            "edge_fp": 5,
+            "edge_fn": 4,
+            "division_tp": 0,
+            "division_fp": 0,
+            "division_fn": 0,
+            "num_pred_nodes": -2902
+          }
+        },
+        "C054": {
+          "score_delta": -0.0008434896705771244,
+          "edge_wins": 23,
+          "edge_losses": 4,
+          "count_deltas": {
+            "edge_tp": -4,
+            "edge_fp": 5,
+            "edge_fn": 4,
+            "division_tp": 0,
+            "division_fp": 0,
+            "division_fn": 0,
+            "num_pred_nodes": -2772
+          }
+        },
+        "C065": {
+          "score_delta": -0.002983499475651019,
+          "edge_wins": 21,
+          "edge_losses": 6,
+          "count_deltas": {
+            "edge_tp": -14,
+            "edge_fp": 13,
+            "edge_fn": 14,
+            "division_tp": 0,
+            "division_fp": 0,
+            "division_fn": 0,
+            "num_pred_nodes": -4761
+          }
+        }
+      }
+    },
+    {
+      "group": "6bba",
+      "score": 0.9417490358629705,
+      "comparisons": {
+        "C023": {
+          "score_delta": 0.0015656972841621153,
+          "edge_wins": 45,
+          "edge_losses": 22,
+          "count_deltas": {
+            "edge_tp": 58,
+            "edge_fp": -7,
+            "edge_fn": -58,
+            "division_tp": 1,
+            "division_fp": -1,
+            "division_fn": -1,
+            "num_pred_nodes": 6579
+          }
+        },
+        "C052": {
+          "score_delta": 0.0,
+          "edge_wins": 0,
+          "edge_losses": 0,
+          "count_deltas": {
+            "edge_tp": 0,
+            "edge_fp": 0,
+            "edge_fn": 0,
+            "division_tp": 0,
+            "division_fp": 0,
+            "division_fn": 0,
+            "num_pred_nodes": 0
+          }
+        },
+        "C053": {
+          "score_delta": 0.0006107218000174219,
+          "edge_wins": 55,
+          "edge_losses": 15,
+          "count_deltas": {
+            "edge_tp": -12,
+            "edge_fp": -14,
+            "edge_fn": 12,
+            "division_tp": 0,
+            "division_fp": -2,
+            "division_fn": 0,
+            "num_pred_nodes": -5699
+          }
+        },
+        "C054": {
+          "score_delta": 0.00041541215125873165,
+          "edge_wins": 54,
+          "edge_losses": 16,
+          "count_deltas": {
+            "edge_tp": -14,
+            "edge_fp": -9,
+            "edge_fn": 14,
+            "division_tp": 0,
+            "division_fp": -1,
+            "division_fn": 0,
+            "num_pred_nodes": -5448
+          }
+        },
+        "C065": {
+          "score_delta": 0.0009029986343955798,
+          "edge_wins": 50,
+          "edge_losses": 20,
+          "count_deltas": {
+            "edge_tp": -27,
+            "edge_fp": -30,
+            "edge_fn": 27,
+            "division_tp": 0,
+            "division_fp": -2,
+            "division_fn": 0,
+            "num_pred_nodes": -9291
+          }
+        }
+      }
+    }
+  ],
+  "extension75": {
+    "group": "extension75",
+    "score": 0.9401805580135535,
+    "comparisons": {
+      "C023": {
+        "score_delta": 0.0017054941858071215,
+        "edge_wins": 43,
+        "edge_losses": 29,
+        "count_deltas": {
+          "edge_tp": 61,
+          "edge_fp": -7,
+          "edge_fn": -61,
+          "division_tp": 1,
+          "division_fp": -1,
+          "division_fn": -1,
+          "num_pred_nodes": 6406
+        }
+      },
+      "C052": {
+        "score_delta": -0.00021250527076288606,
+        "edge_wins": 17,
+        "edge_losses": 4,
+        "count_deltas": {
+          "edge_tp": -9,
+          "edge_fp": 7,
+          "edge_fn": 9,
+          "division_tp": 0,
+          "division_fp": 0,
+          "division_fn": 0,
+          "num_pred_nodes": -4047
+        }
+      },
+      "C053": {
+        "score_delta": 0.000660494248088006,
+        "edge_wins": 62,
+        "edge_losses": 13,
+        "count_deltas": {
+          "edge_tp": -1,
+          "edge_fp": -13,
+          "edge_fn": 1,
+          "division_tp": 0,
+          "division_fp": -1,
+          "division_fn": 0,
+          "num_pred_nodes": -6321
+        }
+      },
+      "C054": {
+        "score_delta": 0.0005684492559752119,
+        "edge_wins": 61,
+        "edge_losses": 14,
+        "count_deltas": {
+          "edge_tp": -4,
+          "edge_fp": -11,
+          "edge_fn": 4,
+          "division_tp": 0,
+          "division_fp": -1,
+          "division_fn": 0,
+          "num_pred_nodes": -5999
+        }
+      },
+      "C065": {
+        "score_delta": 0.0009655420100126433,
+        "edge_wins": 59,
+        "edge_losses": 16,
+        "count_deltas": {
+          "edge_tp": -18,
+          "edge_fp": -28,
+          "edge_fn": 18,
+          "division_tp": 0,
+          "division_fp": -2,
+          "division_fn": 0,
+          "num_pred_nodes": -10234
+        }
+      }
+    }
+  },
+  "graph_diversity_vs_C065": 97,
+  "visible4": 0.933766656395717,
+  "C065_visible4": 0.9362088898007956,
+  "limitations": [
+    "Two biological embryos and correlated overlapping crops",
+    "Own44b6 training domain; opposite6bba additional-model transfer only",
+    "Public frozen models previously exposed",
+    "No local result guarantees leaderboard improvement",
+    "C065 improves44b6 more; uniformC067 improves6bba more"
+  ],
+  "proof_hashes": {
+    "state\\c067_local_review.json": "a90dfc63f5bc65f25e8b81424e527b277b8144accefb97842c2ad2bc792b5026",
+    "state\\c067_recovery_review.json": "34eb60c40d9f0749b8060ca8b03fe36feb23fecd0e1dfd79e6d6fae617ae49ac",
+    "state\\c067_final_science_20260929.json": "5be286bfea949190c722592d169c5e29ef967f9baf96b4a0a7864df067093b9a",
+    "experiments\\candidates\\c067_single_source_44b6\\local_verification.json": "6630bc46f73bd7d99bd72c8a7576ec9c77445385f677624304de61b31ce12a2d",
+    "experiments\\candidates\\c067_single_source_44b6\\official_per_movie97.csv": "5c6685cb8e81fa99c13c1c72569b15b40e3cc007014c202ab89ce4ed8c25611e",
+    "experiments\\candidates\\c067_single_source_44b6\\official_summary.csv": "06f1cb42873a7b0134e9231e5d6245f590a581ba263ef4f25124de459342258d"
+  },
+  "submission_eligible_only_after_exact_clean_T4_fresh_quota_dedup": true,
+  "no_new_model_or_recipe": true,
+  "autonomous_authorization": "User18:16KST explicit conditional autonomous submission",
+  "completion_cutoff": "2026-09-30T00:00:00+09:00"
+}

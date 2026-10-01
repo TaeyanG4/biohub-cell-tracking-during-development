@@ -1,0 +1,14 @@
+{
+  "status": "closed_fixed_arms_negative",
+  "reviewed": "2026-09-27T07:24:15.390674+00:00",
+  "public_version": 6,
+  "public_script_version": 353147685,
+  "claim_0965_verified": false,
+  "actual_visible4": 0.9250646856464496,
+  "actual_repair_fallback_movies": 4,
+  "both_missing_globals_reproduced_and_fixed": true,
+  "official_local_component_scores_pending": false,
+  "kaggle_writes": [],
+  "review": "FINAL_REVIEW.md",
+  "submission_slots_used": 0
+}

@@ -1,0 +1,36 @@
+{
+  "reviewed": "2026-09-28T03:54:22.926907+00:00",
+  "status": "closed_no_graph_integration",
+  "reason": "Fixed threshold.9 gives parent TP/FP/FN6/154/70 and1/16/17 in opposite-embryo tests;unsupported transfer. No refit or threshold search.",
+  "review_verification": {
+    "created": "2026-09-28T03:48:32.993300+00:00",
+    "status": "analysis_recovered_verified",
+    "source_sha256": "6ea957eb70b777683e87088adf32348e52a7e45b6264977836fd4c78caab00f1",
+    "input_hashes_verified": 12,
+    "output_hashes_verified": 9,
+    "folds": [
+      {
+        "train_embryo": "44b6",
+        "test_embryo": "6bba",
+        "train_movies": 27,
+        "test_movies": 70,
+        "saved_prediction_exact": true,
+        "normalization_training_only": true
+      },
+      {
+        "train_embryo": "6bba",
+        "test_embryo": "44b6",
+        "train_movies": 70,
+        "test_movies": 27,
+        "saved_prediction_exact": true,
+        "normalization_training_only": true
+      }
+    ],
+    "no_refit": true,
+    "original_checkpoints_predictions_unchanged": true,
+    "cause": "numpy unicode train_movies require explicit safe scalar/dtype classes with weights_only=True",
+    "original_failure": "status_before.json",
+    "original_plan_sha256": "5ae605c7317b189f933a1f4cb2d1000f602eed90e02ea080c6dec433397437e1"
+  },
+  "next": "C051 fixed real-support boundary registration diagnostic"
+}

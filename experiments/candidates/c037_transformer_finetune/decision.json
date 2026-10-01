@@ -1,0 +1,11 @@
+{
+  "status": "pilot_reviewed_combination_pending",
+  "reviewed": "2026-09-27T02:27:13.271834+00:00",
+  "standalone_submission_supported": false,
+  "reason": "All three arms lose confirm10 and6bba despite small aggregate gains in two arms. Retain for actual C038 complementary-error review; do not close solely for magnitude.",
+  "division_training_targets": 0,
+  "extension75_run": false,
+  "kaggle_operations": [],
+  "next_study": "c038_complementary_fusion",
+  "report": "PILOT_REVIEW.md"
+}

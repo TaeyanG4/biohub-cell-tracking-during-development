@@ -1,0 +1,43 @@
+{
+  "status": "hold_no_pooled_deployment",
+  "created": "2026-09-29T20:07:34.541083+09:00",
+  "independent_review": "state/c066_transfer_review.json",
+  "reason": "Expanded ordinary supervision fails to improve over original C052 in all97, both embryos, heldout12 and extension75. all97 edgeTP+8/FP+11 and divisionTP0/FP+2 versus C052. No credible evidence to prioritize another225minutes for an untested pooled deployment. C067 uniform model diagnostic is positive in both embryos versusC023 and slightly stronger overall, with a165minute path and more deadline margin; it still requires exact same-device and portable/T4 verification. Neither result predicts a Kaggle gain.",
+  "actual97": {
+    "group": "all97",
+    "movies": 97,
+    "score": 0.9408663767190443,
+    "deltas": {
+      "C023": 0.0014222959885448194,
+      "C052": -0.0003855057593391553
+    }
+  },
+  "both_embryos": [
+    {
+      "group": "44b6",
+      "movies": 27,
+      "score": 0.9383188069579538,
+      "deltas": {
+        "C023": 0.0024765100518095995,
+        "C052": -0.0018436732819818724
+      }
+    },
+    {
+      "group": "6bba",
+      "movies": 70,
+      "score": 0.9415011465853742,
+      "deltas": {
+        "C023": 0.0013178080065657793,
+        "C052": -0.00024788927759633594
+      }
+    }
+  ],
+  "evidence_hashes": {
+    "state/c066_transfer_review.json": "d426e5bd2c99a5df95b3186dfa673ed87526a1e74807600cf35445cc47f66e86",
+    "experiments/candidates/c066_expanded_ordinary/transfer97/official_summary.csv": "2033fa7044ea31573da9cfc671daf5b0cbf6c6d4789268eb2319a3ffb111f831",
+    "state/c067_diagnostic_review.json": "2cfb4b88fb9f7f6bbc97a67dac546930bf6a6d51f67737cef05fa5bcc841390f",
+    "experiments/candidates/c067_single_source_44b6/local_recovery/plan.json": "5bcf9e8a8035e84bdde0790994db5b08ab5cd686fffd93c624d11d75d150f8a5"
+  },
+  "production_not_measured": true,
+  "no_recipe_retuning": true
+}

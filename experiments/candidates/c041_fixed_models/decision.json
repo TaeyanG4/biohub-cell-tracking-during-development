@@ -1,0 +1,10 @@
+{
+  "updated": "2026-09-27T12:11:01.351504+00:00",
+  "status": "reviewed_positive_fixed_models",
+  "candidates": [
+    "c042",
+    "c043"
+  ],
+  "next": "Portable local verification then actual T4; no submission yet",
+  "review": "FINAL_REVIEW.md"
+}

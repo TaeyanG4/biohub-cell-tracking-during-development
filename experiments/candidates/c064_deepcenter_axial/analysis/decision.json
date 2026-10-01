@@ -1,0 +1,36 @@
+{
+  "status": "closed_fixed_probe_gate_failed",
+  "gates": {
+    "44b6": {
+      "conditions": {
+        "all": false,
+        "tail": false,
+        "ztail": false,
+        "good": false,
+        "tail_movie_wins": true,
+        "ztail_movie_wins": false
+      },
+      "pass_gate": false
+    },
+    "6bba": {
+      "conditions": {
+        "all": false,
+        "tail": false,
+        "ztail": true,
+        "good": false,
+        "tail_movie_wins": true,
+        "ztail_movie_wins": true
+      },
+      "pass_gate": false
+    }
+  },
+  "rows": 256,
+  "moved": 172,
+  "unsupported": 0,
+  "ownership_conflicts": 25,
+  "no_graph_score_measured": true,
+  "limitation": "Tail-enriched correlated256samples;44b6trained6bbavalidationselected;not population or untouched-embryo validation.",
+  "original_sample_sha256": "95756efeca061236d1ac72850667b6383bf66343d7d6b109006463b82d7b5d1f",
+  "pairs_sha256": "9cf6f87036ec7722d2713f8f16f653b9285ba0e6a4db0fab17e736f90b6af97c",
+  "exact_profile_recount": true
+}

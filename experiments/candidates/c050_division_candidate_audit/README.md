@@ -1,0 +1,11 @@
+# C050: correct the separate C016 candidate scorer's validation split
+
+The user's historical split audit authorizes correcting prior movie-CV conclusions. C049 image CNN failed corrected transfer;C016 is a different geometric/intensity/lineage candidate scorer,so its old within-embryo CV remains a separate unresolved question.
+
+Use existing division_scorer_train.load,fit,predict,per_parent and average_precision,not a new classifier or competition scorer. Read five existing v3 CSVs b00,b01,b02,heldout12,confirm10,covering97 distinct movie IDs. Labels mirror the existing official-metric labeller;unknown -1 is excluded. Strict-positive-only recipe excludes early/grand positives from BOTH fitting and this restricted diagnostic. Those omitted cases are not negatives and measured recall is not all-division recall.
+
+Two whole-embryo fits;never blend at evaluation or route a submitted model by embryo. Use existing trainer defaults60epochs/lr.002/weight_decay.001/hidden32/seed0 with documented historical max_pos_weight100,calculated using TRAINING labels only. These are an explicit fixed recipe,not a claim the absent historical command line has been recovered byte-for-byte. Evaluate at historical fixed.9 threshold only,one best candidate per parent using the original per_parent function. No hyperparameter/checkpoint/threshold sweeps. No automatic qualification:report both directions,parent TP/FP/FN and actual label coverage.
+
+Five jobs through existing Queue:load/pin label arrays,2 CPU fits,analysis,final hash/fold verification. Two-hour start-job budget. InputCSV files total severalGB;estimated15minutes including loading and fixed fits,first check at estimated completion then20minutes only if unfinished. Hidden process,no active waiting. Immutable source/rawfile manifests,per-sample predictions and checkpoint membership. Reuse existing C012-derived candidate features;success would still require fresh C023 candidate/control/integration evidence through existing official replay and actual portable/T4 parity,not a direct submission.
+
+Source-image overlap is avoided for the new model by splitting whole embryos,although frozen public detectors saw both and only2 biological groups exist. Keep C023/C024 anchors,C046 scientific hold and old studies unchanged. No Kaggle operations in this program.

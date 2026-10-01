@@ -1,0 +1,43 @@
+date_utc,ref,candidate,public,private,description
+2026-09-11T18:42:55,56171162,anchor,0.945,0.915,controlled edge-TTA det0.96 T4 anchor
+2026-09-12T13:52:23,56186731,HOCT,0.944,0.910,DCTTA HOCT det0.965 official-metric proxy winner
+2026-09-12T21:44:25,56193365,HOCT,0.933,0.901,no-linefit det0.965 HOCT strong official-metric proxy 0.9054
+2026-09-13T06:02:07,56200431,HOCT,0.936,0.903,dual-HOCT no-linefit det0.965 patched proxy 0.9062
+2026-09-13T15:08:58,56209758,B0-repro,0.946,0.915,clean public-0.947 settings anchor
+2026-09-20T10:31:33,56390846,C003,0.946,0.914,"C003 medal frontier (diverge 1.0, sym 0.8, tight 5.5, expanded PP)"
+2026-09-20T10:32:40,56390878,C003,0.946,0.914,"C003 medal frontier (diverge 1.0, sym 0.8, tight 5.5, expanded PP)"
+2026-09-20T10:57:52,56391478,C004,0.948,0.915,"C004 adaptive lineage enveloping (sister 16.0, exist 12.0, diverge 0.5, sym 0.85, margin 0.001)"
+2026-09-21T05:15:00,56417179,C005,0.944,0.914,C005 gold fusion pipeline (kinematic anti-swap + cytokinesis 0.5 + gap2 + short rescue)
+2026-09-21T05:21:22,56417332,C006,0.944,0.914,"C006 consensus fusion (localized gap anchor 6.0 um, dual-seed consensus, cytokinesis 0.5)"
+2026-09-21T07:48:45,56421907,C007,0.946,0.915,C007 champion frontier (kinematic anti-swap 0.80 + bidirectional consensus + cytokinesis 0.5 + gap2 11.5)
+2026-09-22T00:00:39,56445989,C008,0.926,0.914,C008 local transformer fusion (anchored on proven C004 + 4070Ti local UNet transformer weights)
+2026-09-22T00:01:47,56446095,C008,0.926,0.914,C008 local transformer fusion (anchored on proven C004 + 4070Ti local UNet transformer weights)
+2026-09-22T00:02:55,56446187,C008,0.926,0.914,C008 local transformer fusion (anchored on proven C004 + 4070Ti local UNet transformer weights)
+2026-09-22T00:04:03,56446249,C008,0.926,0.914,C008 local transformer fusion (anchored on proven C004 + 4070Ti local UNet transformer weights)
+2026-09-22T00:05:11,56446303,C008,0.926,0.914,C008 local transformer fusion (anchored on proven C004 + 4070Ti local UNet transformer weights)
+2026-09-23T05:16:22,56483602,C012,0.952,0.924,"C012 x138 pipeline + own V1284-compatible head v1 (candidate mode, head sha256 9d3484f7)"
+2026-09-23T05:16:35,56483608,C013,0.948,0.921,"C013 x138 pipeline + own V1284-compatible head v1 x0.5 (candidate mode, head sha256 209bc591)"
+2026-09-23T07:47:34,56487249,C014,0.949,0.920,"C014 x138 pipeline + own V1284-compatible head v2 (sha256 78053e74), readmit off"
+2026-09-23T16:47:41,56499136,C015,0.951,0.923,"C015 = C012 (x138 pipeline + own V1284 head v1, sha256 9d3484f7) with readmit off"
+2026-09-24T07:55:16,56515876,C017,0.952,0.924,C017 = C012 + jump-stabilized motion relink (STAB_MIN_UM 4.0); T4 visible-4 0.9385 = local
+2026-09-24T09:43:25,56518071,C018,0.952,0.924,C018 = C017 + frozen-frame catch-up prior (local 97 movies +0.0004 vs C017); T4 visible-4 0.9385 = local
+2026-09-24T09:43:28,56518073,C020,0.953,0.924,C020 = C017 with every frame pair stabilized (local 97 movies +0.0011 vs C017); T4 visible-4 0.9407 = local
+2026-09-24T10:47:12,56519304,C022,0.953,0.923,C022 = C020 (every frame pair stabilized) + ILP-edge restore p>=0.7 (local 97 movies +0.0029 vs C017); T4 visible-4 0.9389 = local
+2026-09-24T11:09:23,56519685,C021,0.953,0.923,C021 = C017 + ILP-edge restore p>=0.7 (local 97 movies +0.0017 vs C017); T4 visible-4 0.9363 = local
+2026-09-25T03:29:13,56538803,C023,0.954,0.917,C023 = C022 (every-pair stabilized relink + ILP-edge restore) with the x138 public V1284 head s075; T4 visible-4 0.9334 = local
+2026-09-25T05:46:01,56541277,C024,0.954,0.923,"C024 = C022 + V1284 head ensemble (own v1 + x138 s075, mean shift); T4 visible-4 0.9314705600343445 = local"
+2026-09-25T08:48:07,56546101,C025,0.952,0.923,C025 = C022 + readmit radius 3 um + gap-close 4 um + linefit 0.6 (97-movie sweep +0.0018); T4 visible-4 0.9418608262927067 = local
+2026-09-26T00:13:16,56564110,C028,0.951,0.918,"C028 = C023 (x138 head + stabilization + restore, 0.954) + readmit 3 um / gap-close 4 um / linefit 0.6; T4 visible-4 0.92975 = local"
+2026-09-26T00:31:00,56564563,C029,0.950,0.921,"C029 = C024 (2-head ensemble, 0.954) + readmit 3 um / gap-close 4 um / linefit 0.6; local held-out 12 0.9646; T4 visible-4 0.9343149762633397"
+2026-09-26T00:32:03,56564591,C027,0.953,0.924,C027 = C022 post-processing + 3-head ensemble (ours v1 + x138 s075 + v4); local held-out 12 0.9543; T4 visible-4 0.93217629665493
+2026-09-27T17:01:51,56614627,C042,0.954,0.918,C042 fixed C041 models v1; exact local/T4 parity verified
+2026-09-27T17:01:55,56614629,C043,0.954,0.918,C043 fixed C041 models v1; exact local/T4 parity verified
+2026-09-27T20:23:26,56618641,C044,0.953,0.923,C044 C024 ensemble + fixed C041 models v1; exact local/T4 parity verified
+2026-09-28T00:04:45,56622952,C045,0.953,0.923,C045 C024 ensemble + fixed Transformer and appearance v1; exact local/T4 parity verified
+2026-09-28T14:01:57,56643044,C053,0.954,0.919,C053 C023 + fixed division-supervised Transformer mean600 v1; exact local/T4 parity verified
+2026-09-28T17:51:18,56648523,C054,0.953,0.919,C054 C023 + fixed output ensemble of two division-supervised Transformers
+2026-09-28T23:34:26,56654681,C046,0.954,0.917,C046 C023 + fixed appearance only v1; exact local/T4 parity; user-authorized exploratory submission
+2026-09-29T09:52:33,56671187,C065,0.953,0.918,C065 fixed Transformer v1; actual97 review and exact local/T4 source-model-CSV verified
+2026-09-29T13:07:24,56676382,C067,0.954,0.918,C067 fixed Transformer v1; actual97 review and exact local/T4 source-model-CSV verified
+2026-09-29T14:35:05,56678906,C069,0.954,0.918,C069 fixed Transformer v1; actual97 review and exact local/T4 source-model-CSV verified
+2026-09-29T15:06:35,56679750,C070,0.953,0.918,C070 fixed Transformer v1; actual97 review and exact local/T4 source-model-CSV verified

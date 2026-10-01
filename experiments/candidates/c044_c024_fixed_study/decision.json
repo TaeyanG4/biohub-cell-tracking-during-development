@@ -1,0 +1,10 @@
+{
+  "updated": "2026-09-27T15:50:49.537489+00:00",
+  "status": "proceed_explicitly_authorized_batch",
+  "candidates": [
+    "c044",
+    "c045"
+  ],
+  "next": "state/c044_c045_portable/README.md",
+  "review": "FINAL_REVIEW.md"
+}

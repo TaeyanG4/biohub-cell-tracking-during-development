@@ -1,0 +1,5 @@
+{
+  "pilot_gate_passed": false,
+  "unchanged97_requires_manual_review": true,
+  "reason": "Both opposite embryos must improve adjusted edge, tail residual and edge TP with >=2 movie wins; positive all22 total."
+}

@@ -1,0 +1,11 @@
+# C040 fixed late600 Transformer + C038 combination
+
+User requested continued work on2026-09-27, including useful new public-notebook ideas. This separately registered retrospective experiment uses the existing late600 cross-embryo inference caches and unchanged C038 appearance/agreement models and thresholds. Late600 was chosen for smaller confirm10 loss than early150, not because its unknown combination results were favorable. This is two fixed combinations, not a checkpoint/threshold sweep.
+
+Run `python -u src/c040_late600_combo.py prepare|run|analyse`. Thin orchestration reuses the existing Queue, official replay/aggregate_official, off-control verifier and passive graph audit from C038. No new scorer, fitting, detector inference, image registration or graph-edit method. Original C037-C039 pinned sources and decisions remain unchanged.
+
+Two serial replay jobs on22 movies, then analysis. Four-hour start-job budget; exclusive queue lock and pinned sources/models/notebooks/reference tables/ILP graph chunks/edge caches. Actual22 off scores must match late600. Graph audit checks nodes, source degrees, edge counts and actual versus reported edits. Report total and adjusted-edge score on both splits and embryos versus both C023 and late600-off. All3 variants run through the same actual harness.
+
+Small effects may justify follow-up if consistent, but a positive aggregate alone is insufficient. Review signed subgroup effects and graph edits before registering any extension. No automatic submission. These notebooks use absolute imports and opposite-embryo models, so MUST NOT be pushed. Hidden deployment requires fixed/pooled models, fresh equivalent local replay, real T4 visible4 parity and zero repair_fallback. C023/C024 remain final anchors.
+
+Background only; compact40-minute heartbeat checks, no active waiting. On completion inspect official_summary.csv, analysis.json, edge_audit.json and hashes. Independently review changed public sources from the existing notebook radar; title scores like0.965+ do not establish an LB gain. Do not rerun unchanged C039 arms. Stop this finite continuation when C040 and justified new-code checks close or verified candidates are submitted.

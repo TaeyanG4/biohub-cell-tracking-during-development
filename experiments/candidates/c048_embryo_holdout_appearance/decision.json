@@ -1,0 +1,63 @@
+{
+  "reviewed": "2026-09-28T03:20:59.988565+00:00",
+  "status": "reviewed_small_mixed_no_production_promotion",
+  "verification": {
+    "verified_at": "2026-09-28T03:13:04.976535+00:00",
+    "status": "passed",
+    "input_hashes": 10167,
+    "output_hashes": 814,
+    "crop_hashes": 380,
+    "completed_jobs": 32,
+    "ended": "2026-09-28T03:10:15.821814+00:00",
+    "changed_edges": 1093,
+    "proposed_edges": 3930,
+    "movies_with_graph_changes": 88,
+    "mean_minutes": 52.1
+  },
+  "summary": [
+    {
+      "split": "aggregate97",
+      "group": "all",
+      "movies": 97,
+      "score": 0.9405288479725489,
+      "delta_vs_C023": 3.883506285340399e-05,
+      "delta_vs_C038_cross_embryo": 2.6606916042282158e-05,
+      "edge_delta": 3.883506285340399e-05,
+      "wins": 11,
+      "losses": 9,
+      "div_tp": 27,
+      "div_fp": 46,
+      "div_fn": 124
+    },
+    {
+      "split": "aggregate97",
+      "group": "44b6",
+      "movies": 27,
+      "score": 0.9427790954955632,
+      "delta_vs_C023": 0.0009188965620419154,
+      "delta_vs_C038_cross_embryo": 0.0007867786242382602,
+      "edge_delta": 0.0009188965620419154,
+      "wins": 4,
+      "losses": 1,
+      "div_tp": 7,
+      "div_fp": 15,
+      "div_fn": 19
+    },
+    {
+      "split": "aggregate97",
+      "group": "6bba",
+      "movies": 70,
+      "score": 0.9397706481866485,
+      "delta_vs_C023": -6.121180231333234e-05,
+      "delta_vs_C038_cross_embryo": -5.979436554670592e-05,
+      "edge_delta": -6.121180231333234e-05,
+      "wins": 7,
+      "losses": 8,
+      "div_tp": 20,
+      "div_fp": 31,
+      "div_fn": 105
+    }
+  ],
+  "scientific_limit": "Incremental appearance transfer only;frozen detector/head saw both embryos;two groups and repeated correlated crops.",
+  "next": "C049 corrected division diagnostic;no arbitrary appearance threshold/checkpoint sweep."
+}
