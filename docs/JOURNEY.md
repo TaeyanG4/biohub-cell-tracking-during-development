@@ -9,7 +9,7 @@ Blue dots are public scores (embryo `fdad`, visible during the competition); ora
 ## Phases at a glance
 
 ```mermaid
-flowchart LR
+flowchart TD
     P0["Phase 0<br/>Sep 11-17<br/>reproduce 0.947,<br/>HOCT association research"] --> P1["Phase 1<br/>Sep 18-22<br/>tune the public<br/>0.947 notebook (B0)"]
     P1 --> P2["Phase 2<br/>Sep 23<br/>move to x138,<br/>own coordinate head"]
     P2 --> P3["Phase 3<br/>Sep 24<br/>division scorer (closed),<br/>stabilised relink"]

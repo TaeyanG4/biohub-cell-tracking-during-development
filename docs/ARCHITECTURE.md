@@ -61,7 +61,7 @@ One structural property matters for the later analysis: with division cost 1.2 a
 ## Lineage
 
 ```mermaid
-flowchart LR
+flowchart TD
     P1["pilkwang<br/>detector, DeepCenter,<br/>node Transformer weights"] --> P2["flexonafft<br/>Harmonic Fusion (0.947)"]
     P2 --> B0["reyhanksatria<br/>0.947 notebook = our B0"]
     B0 --> C004["C003-C009<br/>B0 tuning<br/>best C004 0.948"]
@@ -84,7 +84,7 @@ Scores are public / private. The public detector, DeepCenter and Transformer wei
 The Kaggle notebooks were too slow to iterate on (6-10 hours per scored run, 5 shared submissions per day), so most measurements ran locally on an RTX 4070 Ti SUPER:
 
 ```mermaid
-flowchart LR
+flowchart TD
     NB["candidate notebook<br/>(patched tracking repo)"] --> INF["src/run_kaggle_predict_local.py<br/>dual-seed inference + ILP<br/>FP32 / math SDPA option"]
     INF --> CACHE["cached ILP graphs<br/>+ low-detection dumps"]
     CACHE --> PP["src/eval_pp_variants_local.py<br/>replays the notebook's own<br/>post-processing cells"]
