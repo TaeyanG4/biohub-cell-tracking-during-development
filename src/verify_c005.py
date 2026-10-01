@@ -6,7 +6,7 @@ from pathlib import Path
 import nbformat
 import numpy as np
 
-REPO_ROOT = Path("h:/dev/kaggle-data/biohub-cell-tracking-during-development")
+REPO_ROOT = Path("h:/kaggle/competitions/biohub-cell-tracking-during-development")
 C005_DIR = REPO_ROOT / "experiments/candidates/c005_gold_fusion"
 C005_NOTEBOOK = C005_DIR / "biohub-c005-gold-fusion.ipynb"
 METADATA_FILE = C005_DIR / "kernel-metadata.json"

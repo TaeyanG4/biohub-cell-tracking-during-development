@@ -7,7 +7,7 @@ import re
 from pathlib import Path
 import nbformat
 
-REPO_ROOT = Path("h:/dev/kaggle-data/biohub-cell-tracking-during-development")
+REPO_ROOT = Path("h:/kaggle/competitions/biohub-cell-tracking-during-development")
 C004_NB_PATH = REPO_ROOT / "experiments/candidates/c004_adaptive_lineage/biohub-c004-adaptive-lineage.ipynb"
 
 def main():

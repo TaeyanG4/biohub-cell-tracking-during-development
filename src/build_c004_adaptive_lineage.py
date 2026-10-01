@@ -4,7 +4,7 @@ import json
 from pathlib import Path
 import nbformat
 
-REPO_ROOT = Path("h:/dev/kaggle-data/biohub-cell-tracking-during-development")
+REPO_ROOT = Path("h:/kaggle/competitions/biohub-cell-tracking-during-development")
 B0_PATH = REPO_ROOT / "kaggle_notebooks/latest_review/reyhan_0947/biohub-cell-tracking-0-947-lb.ipynb"
 C004_DIR = REPO_ROOT / "experiments/candidates/c004_adaptive_lineage"
 C004_DIR.mkdir(parents=True, exist_ok=True)
