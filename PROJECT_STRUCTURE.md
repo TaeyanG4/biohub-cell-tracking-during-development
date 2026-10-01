@@ -1,22 +1,21 @@
 # Biohub Project Structure
 
-Last updated: 2026-10-01 KST. **The competition is closed** (final private 0.918, rank 515 / 4,017). Start from `README.md` and `docs/`; this file is the map of the original working folder and is kept for reference.
+Last updated: 2026-10-01 KST. **The competition is closed** (final private 0.918, rank 515 / 4,017). Start from `README.md` and `docs/`.
 
-## Public repository vs working folder
+## Current state of the folder (cleaned 2026-10-01)
 
-The GitHub repository publishes a curated subset of this folder, selected by the whitelist in `.gitignore`:
+To free disk space, the local working folder was reduced to the contents of the public GitHub repository plus `AGENTS.md`. Everything else was deleted after the repository was pushed and checked.
 
-| Published | Not published (stays local) |
+| Kept (in the repository) | Deleted, and where to get it back |
 |---|---|
-| `README.md`, `README.ko.md`, `LICENSE`, `NOTICE.md` | `data/` (competition data) |
-| `docs/` (architecture, journey, experiments, validation, postmortem, tooling, figures, data) | `artifacts/` (model weights), `tmp*/` (Kaggle outputs, caches) |
-| `src/**/*.py` | `state/` (run state, logs, audits), `archive/`, `external/`, `intel/` |
-| `tools/` sources (radar, viewer, notifier) | `tools/BiohubViewer/` binaries and build venv |
-| `experiments/candidates/*/` notebooks, READMEs, reviews, `decision.json`, stem lists | candidate run outputs, caches, models, sub-folder audit notebooks |
-| `experiments/submission_log.csv`, `reports/**/*.md` | `vendor/`, `kaggle_notebooks/` (third-party sources), `AGENTS.md` |
-| `HANDOFF.md`, this file | `.venv/` |
+| `README.md`, `README.ko.md`, `LICENSE`, `NOTICE.md`, `docs/` | `data/`: download the competition data from Kaggle |
+| `src/**/*.py`, `tools/` sources | `artifacts/`, candidate model files: every submitted model is in our private Kaggle datasets (`taeyangg4/biohub-c012-v1284-head`, `biohub-v1284-heads`, `biohub-v1284-head-v4`, `biohub-fixed-models-c041`, `biohub-c053-division-transformer`, `biohub-c054-output-ensemble`, `biohub-c065/c067/c068-division-transformer`); study-only models were not kept |
+| `experiments/candidates/*/` notebooks, READMEs, reviews, `decision.json`, stem lists; `experiments/submission_log.csv` | `tmp*/`: Kaggle kernel outputs, re-downloadable with `kaggle kernels output` while Kaggle keeps them |
+| `reports/**/*.md`, replay score summaries | per-run CSVs, feature dumps, caches, logs, `state/` run state and the notebook-radar database |
+| `state/**/*.md` review and decision notes, `intel/**/*.md` | `archive/`, `external/` (papers, third-party repositories), `vendor/` (organisers' metric code, on GitHub), `kaggle_notebooks/` (public notebooks, on Kaggle), `.venv/`, BiohubViewer build output |
+| `HANDOFF.md`, this file; `AGENTS.md` stays local only | |
 
-The rest of this file describes the working folder as it was during the competition (last substantive update 2026-09-29).
+Most scripts in `src/` expect the deleted folders (`data/`, `artifacts/`, `tmp/`, `vendor/`). The rest of this file describes the working folder as it was during the competition (last substantive update 2026-09-29); paths in it may no longer exist.
 
 This document is the canonical filesystem map for the active Biohub competition workspace. `HANDOFF.md` remains the source of truth for scientific status and experiment priority.
 
