@@ -216,8 +216,42 @@ def fig_frame(movie="6bba_05db0fb1", t0=40, tail=8):
     plt.close(fig)
 
 
+def fig_pipeline():
+    """Static version of the README flowchart (GitHub's repo page clips Mermaid height)."""
+    from matplotlib.patches import FancyBboxPatch
+
+    steps = [
+        ("Public stack\npilkwang detector,\nTransformer, x138", "public"),
+        ("Own coordinate\nhead\n(C012)", "ours"),
+        ("Jump-stabilised\nrelink\n(C017 / C020)", "ours"),
+        ("ILP-edge\nrestore\n(C021 / C022)", "ours"),
+        ("Head ensemble,\ntuned Transformer,\nappearance\n(C024-C070)", "ours"),
+        ("Local = T4\nverified\nsubmission", "public"),
+    ]
+    fill = {"public": "#eef4fc", "ours": "#fdeee7"}
+    edge = {"public": BLUE, "ours": ORANGE}
+    fig, ax = plt.subplots(figsize=(12, 2.3))
+    ax.set_xlim(0, len(steps) * 2)
+    ax.set_ylim(0, 2.0)
+    ax.axis("off")
+    w, h = 1.62, 1.35
+    for i, (label, kind) in enumerate(steps):
+        x0 = i * 2 + (2 - w) / 2
+        ax.add_patch(FancyBboxPatch((x0, 0.45), w, h, boxstyle="round,pad=0.02,rounding_size=0.12",
+                                    fc=fill[kind], ec=edge[kind], lw=1.6))
+        ax.text(x0 + w / 2, 0.45 + h / 2, label, ha="center", va="center", fontsize=9.5, color=INK)
+        if i < len(steps) - 1:
+            ax.annotate("", xy=(i * 2 + 2 + (2 - w) / 2 - 0.04, 1.12), xytext=(x0 + w + 0.04, 1.12),
+                        arrowprops=dict(arrowstyle="-|>", color=INK2, lw=1.4))
+    ax.text(0.05, 0.12, "blue: public components    orange: our additions", fontsize=8.5, color=INK2)
+    fig.tight_layout(pad=0.3)
+    fig.savefig(OUT / "pipeline_overview.png", dpi=160)
+    plt.close(fig)
+
+
 if __name__ == "__main__":
     OUT.mkdir(parents=True, exist_ok=True)
+    fig_pipeline()
     subs = load_submissions()
     fig_timeline(subs)
     fig_public_private(subs)

@@ -25,18 +25,7 @@ Kaggle 대회 [Biohub - Cell Tracking During Development](https://www.kaggle.com
 
 ## 기반으로 삼은 것과 우리가 더한 것
 
-```mermaid
-flowchart TD
-    PUB["공개 파이프라인<br/>pilkwang 검출기<br/>+ Transformer, x138"] --> H["자체 좌표<br/>보정 head (C012)"]
-    H --> S["프레임 점프 안정화<br/>재연결 (C017/C020)"]
-    S --> R["ILP 엣지 복원<br/>(C021/C022)"]
-    R --> E["head 앙상블,<br/>Transformer 미세조정,<br/>외형 재연결 (C024-C070)"]
-    E --> SUB["로컬 = T4<br/>검증 후 제출"]
-    classDef public fill:#eef4fc,stroke:#2a78d6,color:#0b0b0b;
-    classDef ours fill:#fdeee7,stroke:#eb6834,color:#0b0b0b;
-    class PUB,SUB public;
-    class H,S,R,E ours;
-```
+![파이프라인 개요](docs/figures/pipeline_overview.png)
 
 파란색은 공개 구성 요소, 주황색은 우리가 추가한 단계입니다. 검출기는 한 번도 재학습하지 않았습니다. 모든 채점 제출은 공개 temporal 3D U-Net과 node Transformer(pilkwang), x138의 후처리 체인(anvithpothula)을 그대로 쓰고 검출 이후 단계만 바꿨습니다. 단계별 설명은 [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md), 출처는 [NOTICE.md](NOTICE.md)에 있습니다.
 

@@ -25,20 +25,9 @@ We did not win a medal. This repository is kept public as an honest record of wh
 
 ## What we built on, and what we added
 
-```mermaid
-flowchart TD
-    PUB["Public stack<br/>pilkwang detector<br/>+ Transformer, x138"] --> H["Own coordinate<br/>head (C012)"]
-    H --> S["Jump-stabilised<br/>relink (C017/C020)"]
-    S --> R["ILP-edge restore<br/>(C021/C022)"]
-    R --> E["Head ensemble,<br/>fine-tuned Transformer,<br/>appearance (C024-C070)"]
-    E --> SUB["Local = T4<br/>verified submission"]
-    classDef public fill:#eef4fc,stroke:#2a78d6,color:#0b0b0b;
-    classDef ours fill:#fdeee7,stroke:#eb6834,color:#0b0b0b;
-    class PUB,SUB public;
-    class H,S,R,E ours;
-```
+![pipeline overview](docs/figures/pipeline_overview.png)
 
-Blue: public components. Orange: our additions. We never retrained the detector. Every scored submission used the public temporal 3D U-Net and node Transformer (pilkwang) with the x138 post-processing chain (anvithpothula), and changed the stages after detection. Full stage-by-stage description: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md). Credits: [NOTICE.md](NOTICE.md).
+We never retrained the detector. Every scored submission used the public temporal 3D U-Net and node Transformer (pilkwang) with the x138 post-processing chain (anvithpothula), and changed the stages after detection. Full stage-by-stage description: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md). Credits: [NOTICE.md](NOTICE.md).
 
 ## How the work evolved
 
