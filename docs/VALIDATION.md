@@ -27,7 +27,7 @@ The 199 movies are crops of only two embryos (71 `44b6`, 128 `6bba`). A pixel au
 
 ## Correction 3 (2026-09-29): our scorer was a replica, not the official code
 
-Historical columns named `official_*` came from an internal replica of the metric. Re-scoring the same saved C023 graphs on 22 movies with the organisers' code gave 0.943113 instead of 0.945986 (divisions 4/5/20 instead of 5/6/19 TP/FP/FN). The difference is not rounding. All 388 saved graphs of C023/C052/C053/C054 on 97 movies were re-scored with the actual code (`state/` audit, not published); candidate rankings did not change, but absolute local numbers before 2026-09-29 should be read as approximate.
+Historical columns named `official_*` came from an internal replica of the metric. Re-scoring the same saved C023 graphs on 22 movies with the organisers' code gave 0.943113 instead of 0.945986 (divisions 4/5/20 instead of 5/6/19 TP/FP/FN). The difference is not rounding. All 388 saved graphs of C023/C052/C053/C054 on 97 movies were re-scored with the actual code ([`state/validation_audit_20260929/REVIEW.md`](../state/validation_audit_20260929/REVIEW.md), in Korean); candidate rankings did not change, but absolute local numbers before 2026-09-29 should be read as approximate.
 
 ## How well local numbers predicted the leaderboards
 

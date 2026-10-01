@@ -67,7 +67,9 @@ experiments/
   submission_log.csv      submission ledger kept during the competition
 src/                      local inference, replay harness, scorer wrapper, candidate builders, study drivers
 tools/                    public-notebook radar, 3D viewer, background-job notifier
-reports/                  written reviews of public notebooks and ideas
+reports/                  written reviews of public notebooks and ideas, replay score summaries
+state/                    research reviews, audits and decision notes written during the competition
+intel/                    paper and idea notes
 HANDOFF.md                raw research log shared between sessions (dense; kept as written)
 PROJECT_STRUCTURE.md      map of the original working folder
 ```

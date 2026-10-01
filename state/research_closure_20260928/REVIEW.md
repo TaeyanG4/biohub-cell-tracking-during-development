@@ -1,0 +1,18 @@
+# Current registered Biohub continuation closed
+
+Reviewed 2026-09-28 after C051 completed and its evidence passed independent verification. The objective of public 0.955 has NOT been achieved. C023/C024 remain the selected scored anchors at 0.954. This record closes the currently supported queue; it is not a claim that every conceivable modelling or preprocessing method has been exhausted.
+
+| Registered avenue | Evidence and disposition |
+|---|---|
+| Fixed Transformer / appearance combinations C042-C045 | All four exact versions were technically verified and submitted. C042/C043 public 0.954; C044 user-reported 0.953. C045 accepted 56622952; its score has not been supplied by the user. No repeated submission or leaderboard polling. |
+| Original-head fixed appearance C046 | Actual T4 verification passed, but pooled local evaluation is fit-domain evidence after confirmed source overlap. The later corrected appearance study C048 did not provide consistent transfer evidence. Retain exact v1 artifacts as technically verified, close the scientific hold as not selected for submission; no pending computation or submission action. |
+| More appearance training data with corrected folds C048 | Two whole-embryo fits, 97 actual off/on controls. Delta all97 +0.000038835, extension75 -0.000015762, 6bba -0.000061212. Small/mixed; no production promotion or same-recipe sweep. C047 was stopped before fitting and is never resumed. |
+| Image division learner C049 | Corrected whole-embryo validation gives fixed-threshold precision 0.156/0.245 and recall 0.04/0.5. Old C031 precision-at-recall claim was also corrected. No useful consistent transfer evidence for this fixed recipe. |
+| Separate geometric/intensity/lineage division learner C050 | Original learner, strict known labels, whole-embryo fits and fixed threshold 0.9: TP/FP/FN 6/154/70 and 1/16/17. Analysis-only recovery preserved fits and verified exact reload. No integration. |
+| Boundary-aware registration C051 | All25 jobs, 1161 input/92 output hashes, 22 original controls verified. 484 additional trusted groups, zero new annotated recovery and one lost annotated match to an unknown target. No integration or support/threshold tuning. |
+| Historical coordinate-head or fixed postprocessing repetitions | Actual Kaggle scores and execution parity remain valid despite invalid movie-only independence claims. Repeating unchanged scored-negative heads/settings does not address that validity problem. No separately supported unsubmitted head mechanism is identified in the current queue. |
+| Changed public notebook mechanisms | Existing radar refresh at 2026-09-28T01:41Z reviewed 232 listings with no prioritized new mechanism. Unchanged V6 was already audited; the six-hour refresh interval is not yet due and there is no specific new lead. Do not schedule empty compute checks just to refetch unchanged code later. |
+
+There are no active local or remote jobs and no currently selected pending submissions. Stop the biohub-t4 automation instead of repeatedly checking completed work. A genuinely changed public source, additional independent data, a new supported mechanism, or a user-supplied C045 result can justify a fresh, bounded review. Any later experiment retains whole-embryo component validation, known-label handling and the distinction between component transfer and independent whole-pipeline validation. New submissions still require actual local/portable/T4 parity, exact hashes/version, deduplication and fresh shared quota.
+
+Source crops are two biological embryos, not 199 independent videos. Public frozen detectors already saw both. More repeated tuning of these same diagnostics cannot by itself establish the desired hidden-test improvement.

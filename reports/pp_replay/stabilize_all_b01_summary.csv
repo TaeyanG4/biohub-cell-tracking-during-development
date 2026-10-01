@@ -1,0 +1,4 @@
+adjusted_edge_jaccard,division_jaccard,proxy_score,div_tp,div_fp,div_fn,missed_gt_nodes,spurious_pred_nodes,edges_recovered,edges_fragmented,edges_lost_to_detection,wrong_association_edges,config,group,n,safe_divisions_added,readmitted_nodes,gapfill_added_nodes
+0.9245808196066756,0.14583333333333334,0.9391641529400089,7,12,29,291,498184,12875,252,343,25,stab_all,all,25,349,6947,686
+0.9459373334491094,0.23809523809523808,0.9697468572586332,5,9,7,28,252108,2839,71,37,6,stab_all,44b6,12,189,3748,588
+0.9185731957458696,0.07407407407407407,0.925980603153277,2,3,22,263,246076,10036,181,306,19,stab_all,6bba,13,160,3199,98

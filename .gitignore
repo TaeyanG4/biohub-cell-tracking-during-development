@@ -19,6 +19,8 @@
 !/tools/
 !/experiments/
 !/reports/
+!/state/
+!/intel/
 
 # Python caches anywhere
 __pycache__/
@@ -58,7 +60,18 @@ __pycache__/
 /experiments/candidates/**/runs/
 /experiments/candidates/**/logs/
 
-# reports: written reports only (no feature dumps or replay CSVs)
+# reports: written reports and replay score summaries (no feature dumps or per-run CSVs)
 /reports/**
 !/reports/**/
 !/reports/**/*.md
+!/reports/**/*summary*.csv
+
+# state: written reviews and decision notes only (no run state, logs, caches or radar data)
+/state/**
+!/state/**/
+!/state/**/*.md
+
+# intel: paper and idea notes only (no PDFs or raw source snapshots)
+/intel/**
+!/intel/**/
+!/intel/**/*.md

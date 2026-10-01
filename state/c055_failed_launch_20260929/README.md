@@ -1,0 +1,1 @@
+First launch 02:32 KST failed at check_cache: two movies had one raw peak claimed by two refined nodes under independent nearest-neighbour identity; stage and check now use a greedy one-to-one node-to-peak assignment. No scientific outputs were produced.

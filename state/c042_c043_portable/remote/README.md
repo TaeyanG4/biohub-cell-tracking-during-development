@@ -1,0 +1,15 @@
+# C042/C043 actual T4 verification
+
+Local verification passed nine jobs,2562 input/534 artifact hashes, two full-movie cache/ILP reproduction, each notebook12 replay and exact visible4 writer graphs. Both local visible4 official scores0.9315252396676436; repair_fallback=0 and deadline_degraded=0. Visible4 edge symmetric difference140, not duplicate outputs.
+
+Read status.json and c042_push_action.json/c043_push_action.json for exact refs, versions and notebook hashes. Model dataset taeyangg4/biohub-fixed-models-c041 is private, status ready. Never push again merely to check progress. Original local source plan remains immutable. Upload wrapper initially failed locally before any request because cwd was forced to repository; corrected cwd upload created dataset once.
+
+At scheduled wake use one compact shell call: local monitor/status, then one Kaggle kernels status per active pushed ref. Save response/status; no further reads or notification while both queued/running. Remote jobs have no local live PID; do not misclassify them as failed from PID absence.
+
+When a job completes, download into its exact-version directory (e.g. remote/c042_v1). Confirm remote latest version/source corresponds to recorded version1 before using CLI output, which fetches latest. Fetch source/metadata once if needed and normalize source-string/list representation for comparison to locally pinned notebook; Kaggle push may remove outputs/alter notebook serialization, so raw downloaded notebook bytes may differ. No new version is authorized without explaining an actual failure/change. Never submit an unverified newest version.
+
+Use src/evaluate_local.py --csv <output/submission.csv> --gt-dir data/visible_gt/train --out-dir <version>/evaluation. Compare actual official score to0.9315252396676436 at full precision. Require all4 run_stats rows repair_fallback=0 and deadline_degraded=0. Check logs/runtime for fixed model SHA and correct C043 appearance mode, missing inputs/errors, expected source/model mounts. If CSV/score or required fallback evidence absent, investigate rather than submit. Output-download SSL issues can leave logs absent; source/artifact/runtime evidence must still establish execution. Never accept a fallback pipeline from score alone.
+
+Before submission read fresh shared daily submission list and state/submission_budget_20260927/policy.json. One pre-existing pending56605387 is not this task. Only two new exploratory submissions allowed while reserving two actual shared slots; teammate activity can reduce this. Submit each passing exact kernel version only once, record submission id immediately in ledger and durable actions. No bare400 retries, uncertain-success retries without readback, LB polling or blind next-day slot use. Preserve C023/C024 final picks.
+
+If still running, end quietly without waiting; existing40-minute heartbeat handles next check. After verified submissions or substantive failure, advance justified conditional evidence audits from state/improvement_queue_20260927.json; do not repeat closed fixed arms or invent sweeps. Stop follow-up when supported avenues are exhausted/unavailable.

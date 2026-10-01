@@ -67,7 +67,9 @@ experiments/
   submission_log.csv      대회 중 기록한 제출 장부
 src/                      로컬 추론, 후처리 재생 하네스, 채점 래퍼, 후보 빌더, 실험 드라이버
 tools/                    공개 노트북 레이더, 3D 뷰어, 백그라운드 작업 알림
-reports/                  공개 노트북·아이디어 검토 보고서
+reports/                  공개 노트북·아이디어 검토 보고서, 재생 채점 요약
+state/                    대회 중 작성한 연구 리뷰·감사·결정 기록
+intel/                    논문·아이디어 메모
 HANDOFF.md                세션 간 공유한 원본 연구 일지 (밀도가 높아 원문 그대로 둠)
 PROJECT_STRUCTURE.md      원래 작업 폴더의 지도
 ```
